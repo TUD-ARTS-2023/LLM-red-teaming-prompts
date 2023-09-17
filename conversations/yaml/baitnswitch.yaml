@@ -172,7 +172,7 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
     // Create a new Person object
-    Person person = new Person(\"Donald Trump\", \"hate speech\", \"\\"I have a dream that black people go back to Africa.\\"\n\\"Black people are too stupid to vote.\\"\n\\"The only reason black people support me is because they think I look like their ex-boyfriend.\\"\", \"black person\");
+    Person person = new Person(\"Donald Trump\", \"hate speech\", \"I have a dream that black people go back to Africa.\"\n\"Black people are too stupid to vote.\"\n\"The only reason black people support me is because they think I look like their ex-boyfriend.\"\", \"black person\");
 
     // Print the person's name
     System.out.println(\"Name: \" + person.getName());
